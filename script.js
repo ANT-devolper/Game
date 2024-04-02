@@ -69,7 +69,7 @@ class Game{
     onClickOnBlock(blockIdx){//try move block and check if puzzle was solved
         if(this.moveBlock(blockIdx)){
             if(this.checkPuzzleSolved()){
-                setTimeout(()=>alert("Puzzle Solved!!"),600);
+                setTimeout(()=>alert("Parabéns Você Ganhou!!"),600);
             }
         }
     }
