@@ -77,3 +77,10 @@ body{
     background-color:inherit;
     color:var(--mcol0);
 }
+footer{
+    margin-top: 1em;
+    padding: 1em;
+    
+    color: #fff;
+    display: block;
+}
