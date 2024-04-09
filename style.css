@@ -68,6 +68,7 @@ body{
     margin:4px;
     cursor: pointer;
     transition:font-size 0.3s;
+    user-select:none;
 }
 .difficulty_button:hover{
     opacity:0.8;
